@@ -16,7 +16,7 @@ class LinkList:
         else:
             return False
     
-    #遍历列表数据
+    #遍历链表数据
     def print_everyone(self):
         if not self.is_None():
             current_node = self.head
